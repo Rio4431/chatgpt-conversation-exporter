@@ -1,0 +1,6 @@
+body { margin: 0; background: #f1f5f9; color: #111; font-family: "Meiryo", sans-serif; }
+#toolbar { position: sticky; top: 0; z-index: 10; background: white; padding: 12px 20px; border-bottom: 1px solid #cbd5e1; display: flex; gap: 12px; align-items: center; }
+#message { flex: 1; font-size: 13px; }
+button { background: #245cc5; color: white; padding: 8px 14px; border: 0; border-radius: 5px; cursor: pointer; }
+button:disabled { opacity: .5; cursor: wait; }
+@media print { #toolbar { display: none !important; } #conversation { display: block; } }
