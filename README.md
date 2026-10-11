@@ -1,5 +1,7 @@
 # ChatGPT Conversation Exporter
 
+<img src="icons/icon128.png" width="96" height="96" alt="Chat bubble with a download arrow">
+
 Version **1.0**
 
 A Google Chrome extension that collects prompts and responses from the open ChatGPT conversation, downloads an HTML copy, and opens a dedicated tab for PDF printing.
